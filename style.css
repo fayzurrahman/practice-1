@@ -57,6 +57,7 @@ h2{
 }
 .left-padding{
     padding-left: 200px;
+    
 }
 .partision{
     float: left;
@@ -67,24 +68,36 @@ h2{
     background-color: whitesmoke;
     
 }
-#bg-img{
-    background-image: linear-gradient(red red);
+.forth-section{
+    background-image: url(images/work.png);
+    background-size: cover;
+    margin-top: 300px;
+    margin-left: 200px;
+    width: 75%;
+    height: 500px;
+    border-radius: 40px;
 
-}
-.bg-poster{
-    
+    color: blanchedalmond;
     background-repeat: no-repeat;
+    background-position: center;
     float: left;
-    margin-top: 100px;
-    background-repeat: no-repeat;
 }
-#work{
+.inquary{
+
     text-align: left;
-    color: white;
-    text-transform: uppercase;
+    padding-top: 300px;
+    
 }
-.chat{
-    float: right;
+.overselves{
+    float: left;
+}
+.we-are{
+    overflow: hidden;
+    float: left;
+    width: 100%;
+    padding-top: 50px;
+    text-align: center;
+    font-size: 40px;
 }
 .identity{
     float: right;
@@ -107,21 +120,13 @@ h2{
     text-align: center;
 }
 .stay{
+    
     text-align: center;
     width: 100%;
     overflow: hidden;
 }
 .icon{
-    float: left;
     height: 1.5%;
     width: 3%;
-    padding-left: 20px;
-    
-
-}
-.we-are{
-    font-size: 50px;
-    
-    text-align: center;
 }
 
